@@ -78,9 +78,6 @@ The app is deployed using **Streamlit Cloud**. To deploy on your own, follow the
 - Add user-based filtering.
 - Improve UI/UX with additional features.
 
-## 📜 License
-
-This project is licensed under the **MIT License**.
 
 ---
 
