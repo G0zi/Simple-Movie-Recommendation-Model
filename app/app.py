@@ -2,13 +2,18 @@ import streamlit as st
 import pickle
 import requests
 import gzip
+import os
 
+base_path = os.path.dirname(__file__)
 
-with gzip.open('movies.pkl.gz', 'rb') as f:
+movies_file = os.path.join(base_path, "movies.pkl.gz")
+similarity_file = os.path.join(base_path, "similarity.pkl.gz")
+
+with gzip.open(movies_file, "rb") as f:
     movies_list = pickle.load(f)
-display_list = movies_list['title'].values
+display_list = movies_list["title"].values
 
-with gzip.open('similarity.pkl.gz', 'rb') as f:
+with gzip.open(similarity_file, "rb") as f:
     similarity = pickle.load(f)
 
 
