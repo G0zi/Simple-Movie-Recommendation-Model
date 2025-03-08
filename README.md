@@ -2,7 +2,7 @@
 
 &#x20;
 
-A movie recommendation system built using **Streamlit** that suggests similar movies based on a selected movie. The recommendations are powered by a precomputed similarity matrix.
+🎬 Simple Movie Recommendation Model is a Streamlit-based web application that suggests similar movies based on user selection. The recommendations are generated using vectorization techniques to analyze movie similarity.
 
 ## 🚀 Live Demo
 
